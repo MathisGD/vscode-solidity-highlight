@@ -1,0 +1,2 @@
+syntax copied from https://github.com/juanfranblanco/vscode-solidity/blob/master/syntaxes/solidity.json
+clone in ~/.vscode/extensions/

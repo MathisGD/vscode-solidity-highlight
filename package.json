@@ -1,0 +1,28 @@
+{
+    "name": "sol-highlight",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "solidity",
+                "aliases": [
+                    "Solidity",
+                    "solidity"
+                ],
+                "extensions": [
+                    ".sol"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "solidity",
+                "scopeName": "source.solidity",
+                "path": "./syntaxes/solidity.json"
+            }
+        ]
+    }
+}
