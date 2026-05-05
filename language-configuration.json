@@ -1,0 +1,24 @@
+{
+    "comments": {
+        "lineComment": "//",
+        "blockComment": ["/*", "*/"]
+    },
+    "brackets": [["{", "}"], ["[", "]"], ["(", ")"]],
+    "autoClosingPairs": [
+        { "open": "{", "close": "}" },
+        { "open": "[", "close": "]" },
+        { "open": "(", "close": ")" },
+        { "open": "\"", "close": "\"", "notIn": ["string"] },
+        { "open": "'", "close": "'", "notIn": ["string", "comment"] },
+        { "open": "/**", "close": " */", "notIn": ["string"] }
+    ],
+    "surroundingPairs": [["{", "}"], ["[", "]"], ["(", ")"], ["\"", "\""], ["'", "'"]],
+    "indentationRules": {
+        // Indent the next line when the previous line opens a bracket that isn't closed on the same line.
+        "increaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$",
+        // Dedent the line when it begins with a closing bracket.
+        "decreaseIndentPattern": "^\\s*[\\}\\)\\]].*$",
+        // Indent the single line that follows a braceless `if` / `for` / `while` / `else` head; the line after returns to baseline.
+        "indentNextLinePattern": "^\\s*(for|while|if|else)\\b[^{;]*$"
+    }
+}
