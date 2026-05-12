@@ -5,3 +5,4 @@ syntax copied from https://github.com/juanfranblanco/vscode-solidity/blob/master
 to intall:
 - clone in `~/.vscode/extensions/`
 - run `rm ~/.vscode/extensions/extensions.json`
+- reload vscode
