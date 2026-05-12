@@ -1,2 +1,7 @@
+minimal solidity syntax highlighting vscode extension
+
 syntax copied from https://github.com/juanfranblanco/vscode-solidity/blob/master/syntaxes/solidity.json
-clone in ~/.vscode/extensions/
+
+to intall:
+- clone in `~/.vscode/extensions/`
+- run `rm ~/.vscode/extensions/extensions.json`
